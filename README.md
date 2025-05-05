@@ -90,6 +90,16 @@ Expected result will be the list of music that you liked. For example if you lik
 1 Taylor Swift  –  Red
 ```
 
+### Possible Issues
+
+If you are trying to create a virtual enviroment and you run into an issue with the following line:
+```
+virtualenv --python=python3 env
+```
+Try this workaround instead:
+```
+python3 -m venv env
+```
 
 ## Reporting Issues
 
